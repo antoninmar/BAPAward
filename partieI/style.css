@@ -31,3 +31,48 @@
 #block1 #titre1 {
   font-variant: small-caps;
 }
+
+#block2 {
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  margin: 0 auto;
+  padding: 90px 0 90px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#block2 #img {
+  margin-top: 30px;
+  position: relative;
+}
+
+#block2 #fond {
+  position: absolute;
+}
+
+#block2 #team {
+  margin: 60px 110px 0 110px;
+}
+
+#block2 #photo {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #BDBDBD;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 0 20px 15px 20px;
+}
+
+#block2 #text-team {
+  margin-top: 30px;
+}
+
+#block2 article {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #BDBDBD;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px 50px 20px 50px;
+}
