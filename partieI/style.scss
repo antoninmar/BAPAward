@@ -75,6 +75,7 @@
 	display: block;
 	text-align: center;
 	width: auto;
+	padding-bottom: 2%;
 }
 //reseaux sociaux
 
@@ -82,4 +83,13 @@
 	margin-top: 3%;
 	display: block;
 	text-align: center;
+}
+#reseau{
+	ul{
+		li{
+			display: block;
+			text-align: center;
+			display: inline-block;
+		}
+	}
 }
