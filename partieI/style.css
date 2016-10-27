@@ -54,9 +54,12 @@
 
 #btn {
   display: block;
-  text-align: center; }
+  text-align: center;
+  width: auto; }
 
 #res {
-  margin-top: 3%; }
+  margin-top: 3%;
+  display: block;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
