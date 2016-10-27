@@ -64,10 +64,19 @@
 	height: 100px;
 }
 .bouton{
-	display: block;
-	display: center;
 	border-radius: 5px;
 	font-weight: lighter;
 	background-color: white;
 	color: #986565;
+	width: 100%;
+	height: 30px;
+}
+#btn{
+	display: block;
+	text-align: center;
+}
+//reseaux sociaux
+
+#res{
+	margin-top: 3%;
 }
