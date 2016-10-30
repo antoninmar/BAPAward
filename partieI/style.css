@@ -21,6 +21,20 @@
   #block1 #titre1 {
     font-variant: small-caps; }
 
+.service {
+  text-align: center;
+  font-weight: bold; }
+
+.justify {
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 400; }
+
+.ima {
+  margin-top: 5%;
+  display: block;
+  text-align: center; }
+
 #back {
   background: url("imgformulaire.png");
   background-size: cover;
