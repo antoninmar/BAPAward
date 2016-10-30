@@ -1,10 +1,27 @@
+body {
+  overflow-x: hidden;
+}
+
+body h1 {
+  font-variant: small-caps;
+  font-size: 36px;
+  font-family: 'Montserrat';
+  padding-bottom: 100px;
+  text-align: center;
+}
+
 #block1 {
-  background: url("bg1.jpg");
+  background: url("contenu/img/bg1.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
   margin: 0 auto;
   padding: 87px 0 87px 0;
+}
+
+#block1 h1 {
+  font-size: 40px;
+  padding: 0;
 }
 
 #block1 #img-profil {
@@ -32,8 +49,66 @@
   font-variant: small-caps;
 }
 
+#block2 {
+  background-color: #f2f2f2;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  padding: 80px 0 150px 0;
+}
+
+#block2 #img .img-responsive {
+  padding: 30px 30px 30px 30px;
+  display: initial;
+}
+
+#block2 #photo {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #BDBDBD;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+#block2 .team1 {
+  background: url("contenu/img/teambg1.png") no-repeat left top;
+  background-size: cover;
+}
+
+#block2 .team2 {
+  background: url("contenu/img/teambg2.png") no-repeat left top;
+  background-size: cover;
+}
+
+#block2 .team3 {
+  background: url("contenu/img/teambg3.png") no-repeat left top;
+  background-size: cover;
+}
+
+#block2 .team4 {
+  background: url("contenu/img/teambg4.png") no-repeat left top;
+  background-size: cover;
+}
+
+#block2 .team5 {
+  background: url("contenu/img/teambg5.png") no-repeat left top;
+  background-size: cover;
+}
+
+#block2 .team6 {
+  background: url("contenu/img/teambg6.png") no-repeat left top;
+  background-size: cover;
+}
+
+#block-text {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #BDBDBD;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
 #block3 {
-  padding: 100px 0 150px 0;
+  padding: 80px 0 150px 0;
 }
 
 #block3 .service {
@@ -56,25 +131,86 @@
 
 #block4 {
   background-color: #edecec;
-  padding: 100px 0 200px 0;
+  padding: 80px 0 150px 0;
 }
 
-#block4 h2 {
+#block4 .portfolio1 {
+  padding: 0;
+  margin: 0;
+  background: url("contenu/img/portfolio1.png") no-repeat left top;
+  background-size: cover;
+  height: 500px;
+}
+
+#block4 .portfolio2 {
+  padding: 0;
+  margin: 0;
+  background: url("contenu/img/portfolio2.png") no-repeat left top;
+  background-size: cover;
+  height: 500px;
+}
+
+#block4 .portfolio3 {
+  padding: 0;
+  margin: 0;
+  background: url("contenu/img/portfolio3.png") no-repeat left top;
+  background-size: cover;
+  height: 500px;
+}
+
+#block4 .portfolio4 {
+  padding: 0;
+  margin: 0;
+  background: url("contenu/img/portfolio4.png") no-repeat left top;
+  background-size: cover;
+  height: 500px;
+}
+
+#block4 #overlay {
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+#block4 .portfolio1:hover #overlay {
+  opacity: 1;
+}
+
+#block4 .portfolio2:hover #overlay {
+  opacity: 1;
+}
+
+#block4 .portfolio3:hover #overlay {
+  opacity: 1;
+}
+
+#block4 .portfolio4:hover #overlay {
+  opacity: 1;
+}
+
+#block4 #plus {
   font-family: 'Montserrat';
   font-variant: small-caps;
-  text-align: center;
-  padding-bottom: 100px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 4em;
+  line-height: 60px;
+  position: relative;
+  top: 28%;
 }
 
 #back {
-  background: url("imgformulaire.png");
+  background: url("contenu/img/imgformulaire.png");
   background-size: cover;
   background-position: center;
 }
 
-.title {
-  color: black;
-  text-align: center;
+#back h1 {
+  padding: 0;
 }
 
 .texte {
@@ -82,6 +218,14 @@
   text-align: center;
   font-size: 20px;
   font-weight: lighter;
+  font-variant: small-caps;
+}
+
+.texte2 {
+  color: #786e6e;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
 }
 
 #text {
@@ -120,4 +264,8 @@
   display: block;
   text-align: center;
   display: inline-block;
+}
+
+#reseau ul li img {
+  width: 30px;
 }
