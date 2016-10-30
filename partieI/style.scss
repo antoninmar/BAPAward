@@ -1,5 +1,5 @@
 
-//header
+//header : Maxime
 
 #block1{
 	background: url('bg1.jpg');
@@ -11,14 +11,14 @@
 
 		#img-profil {
 		padding: 80px 0 80px 0;
-}
+		}
 		li {
 		text-decoration: none;
 		display: inline-block;
 		padding: 0 4vw 00;
 
 
-}
+		}
 		a {
 			color:#fff;
 			font-size: 2vw;
@@ -26,19 +26,53 @@
 			&:hover{
 			color: #fff;
 			text-decoration: none;
-}
-}
+			}
+		}
 
 		#titre1{
 		font-variant: small-caps;
-}
-
-
-
-
- //formulaire
+	}
 
 }
+// Our services : Kevin
+
+#block3 {
+	padding:100px 0 150px 0;
+
+	.service{
+		text-align: center;
+		font-variant: small-caps;
+		font-size: 36px;
+	}
+	.justify{
+		text-align: center;
+		margin-top: 10%;
+		font-weight: 400;
+	}
+	.ima{
+			margin-top: 5%;
+			display: block;
+			text-align: center;
+	}
+}
+
+//Portfolio
+
+#block4 {
+	background-color:#edecec;
+	padding:100px 0 200px 0;
+
+	h2{
+		font-family: 'Montserrat';
+		font-variant: small-caps;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+
+}
+
+ //formulaire : Kevin
+
 #back{
 	background: url('imgformulaire.png');
 	background-size: cover;
@@ -74,9 +108,22 @@
 #btn{
 	display: block;
 	text-align: center;
+	width: auto;
+	padding-bottom: 2%;
 }
 //reseaux sociaux
 
 #res{
 	margin-top: 3%;
+	display: block;
+	text-align: center;
+}
+#reseau{
+	ul{
+		li{
+			display: block;
+			text-align: center;
+			display: inline-block;
+		}
+	}
 }
