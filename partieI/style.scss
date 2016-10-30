@@ -1,24 +1,39 @@
+body{
+	overflow-x: hidden;
 
-//header : Maxime
+	h1{
+		font-variant: small-caps;
+		font-size: 36px;
+		font-family: 'Montserrat';
+		padding-bottom: 100px;
+		text-align: center;
+	}
+}
+
 
 #block1{
-	background: url('bg1.jpg');
+	background: url('contenu/img/bg1.jpg');
 	background-size: cover;
 	background-position: center;
 	color: #fff;
 	margin:0 auto;
 	padding: 87px 0 87px 0;
 
+		h1{
+			font-size:40px;
+			padding:0;
+		}
+
 		#img-profil {
 		padding: 80px 0 80px 0;
-		}
+}
 		li {
 		text-decoration: none;
 		display: inline-block;
 		padding: 0 4vw 00;
 
 
-		}
+}
 		a {
 			color:#fff;
 			font-size: 2vw;
@@ -26,49 +41,211 @@
 			&:hover{
 			color: #fff;
 			text-decoration: none;
-			}
-		}
+}
+}
 
 		#titre1{
 		font-variant: small-caps;
+}
+
+
+}
+
+
+
+
+#block2{
+	background-color: #f2f2f2;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	padding:80px 0 150px 0;
+
+   #img {
+
+   		.img-responsive{
+    		padding: 30px 30px 30px 30px;
+    		display: initial;
+   		}
+	 
+		}
+	#photo {
+		border-width: 1px 1px 1px 1px;
+		border-style:solid;
+		border-color:#BDBDBD;
+		border-radius: 8px;
+		margin-bottom: 50px;
 	}
 
-}
-// Our services : Kevin Sy
+	.team1 {
+		background: url('contenu/img/teambg1.png') no-repeat left top;
+		background-size: cover;
+	}
 
-.service{
-	text-align: center;
-	font-weight: bold;
+	.team2 {
+		background: url('contenu/img/teambg2.png') no-repeat left top;
+		background-size: cover;
+	}
+
+	.team3 {
+		background: url('contenu/img/teambg3.png') no-repeat left top;
+		background-size: cover;
+	}
+
+	.team4 {
+		background: url('contenu/img/teambg4.png') no-repeat left top;
+		background-size: cover;
+	}
+
+	.team5 {
+		background: url('contenu/img/teambg5.png') no-repeat left top;
+		background-size: cover;
+	}
+
+	.team6 {
+		background: url('contenu/img/teambg6.png') no-repeat left top;
+		background-size: cover;
+	}
 }
-.justify{
-	text-align: center;
-	margin-top: 10%;
-	font-weight: 400;
+#block-text {
+		border-width: 1px 1px 1px 1px;
+		border-style:solid;
+		border-color:#BDBDBD;
+		border-radius: 8px;
+		background-color: #fff;
+
 }
-.ima{
-		margin-top: 5%;
-		display: block;
+<<<<<<< HEAD
+// Our services : Kevin Sy
+=======
+
+
+// Our services : Kevin
+>>>>>>> origin/Kevin_Sy
+
+#block3 {
+	padding:80px 0 150px 0;
+
+	.service{
 		text-align: center;
+		font-variant: small-caps;
+		font-size: 36px;
+	}
+	.justify{
+		text-align: center;
+		margin-top: 10%;
+		font-weight: 400;
+	}
+	.ima{
+			margin-top: 5%;
+			display: block;
+			text-align: center;
+	}
+}
+
+//Portfolio
+
+#block4 {
+	background-color:#edecec;
+	padding:80px 0 150px 0;
+
+	.portfolio1{
+		padding:0;
+		margin:0;
+		background: url("contenu/img/portfolio1.png") no-repeat left top;
+		background-size: cover;
+		height:500px;
+	}
+
+	.portfolio2{
+		padding:0;
+		margin:0;
+		background: url("contenu/img/portfolio2.png") no-repeat left top;
+		background-size: cover;
+		height:500px;
+	}
+
+	.portfolio3{
+		padding:0;
+		margin:0;
+		background: url("contenu/img/portfolio3.png") no-repeat left top;
+		background-size: cover;
+		height:500px;
+	}
+
+	.portfolio4{
+		padding:0;
+		margin:0;
+		background: url("contenu/img/portfolio4.png") no-repeat left top;
+		background-size: cover;
+		height:500px;
+	}
+
+	#overlay {
+		background:rgba(0,0,0,.75);
+		position: absolute;
+        text-align:center;
+        height: 100%;
+        width: 100%;
+        opacity:0;
+        -webkit-transition: opacity .25s ease;
+		-moz-transition: opacity .25s ease;
+	}
+
+.portfolio1:hover #overlay {
+        opacity:1;
+    }
+
+.portfolio2:hover #overlay {
+        opacity:1;
+    }
+
+.portfolio3:hover #overlay {
+        opacity:1;
+    }
+
+.portfolio4:hover #overlay {
+        opacity:1;
+    }
+
+#plus{
+	font-family:'Montserrat';
+	font-variant: small-caps;
+    color:rgba(255,255,255,.85);
+    font-size:4em;
+    line-height: 60px;
+    position: relative;
+    top:28%;
+}
 }
 
  //formulaire : Kevin Sy
 
 #back{
-	background: url('imgformulaire.png');
+	background: url('contenu/img/imgformulaire.png');
 	background-size: cover;
 	background-position: center;
 
+	h1{
+		padding:0;
+	}
+
 }
-.title{
-	color: black;
-	text-align: center;
-}
+
 .texte{
 	color: #786e6e;
 	text-align: center;
 	font-size: 20px;
 	font-weight: lighter;
+	font-variant: small-caps;
 }
+
+.texte2{
+	color:#786e6e;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 200;
+}
+
 #text{
 	height: 100px;
 }
@@ -104,6 +281,10 @@
 			display: block;
 			text-align: center;
 			display: inline-block;
+
+			img{
+				width:30px;
+			}
 		}
 	}
 }
